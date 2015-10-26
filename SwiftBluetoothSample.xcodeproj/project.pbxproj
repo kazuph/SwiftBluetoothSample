@@ -14,6 +14,7 @@
 		9A68AE621BDE52FF00F431E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A68AE601BDE52FF00F431E7 /* LaunchScreen.storyboard */; };
 		9A68AE6D1BDE52FF00F431E7 /* SwiftLGBluetoothTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A68AE6C1BDE52FF00F431E7 /* SwiftLGBluetoothTests.swift */; };
 		9A68AE781BDE52FF00F431E7 /* SwiftLGBluetoothUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A68AE771BDE52FF00F431E7 /* SwiftLGBluetoothUITests.swift */; };
+		9A68AE861BDE532E00F431E7 /* BLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A68AE851BDE532E00F431E7 /* BLEManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +35,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9A68AE541BDE52FF00F431E7 /* SwiftLGBluetooth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLGBluetooth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A68AE541BDE52FF00F431E7 /* SwiftBluetoothSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftBluetoothSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A68AE571BDE52FF00F431E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A68AE591BDE52FF00F431E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9A68AE5C1BDE52FF00F431E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A68AE5E1BDE52FF00F431E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A68AE611BDE52FF00F431E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A68AE631BDE52FF00F431E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9A68AE681BDE52FF00F431E7 /* SwiftLGBluetoothTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftLGBluetoothTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A68AE681BDE52FF00F431E7 /* SwiftBluetoothSample.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftBluetoothSample.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A68AE6C1BDE52FF00F431E7 /* SwiftLGBluetoothTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLGBluetoothTests.swift; sourceTree = "<group>"; };
 		9A68AE6E1BDE52FF00F431E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9A68AE731BDE52FF00F431E7 /* SwiftLGBluetoothUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftLGBluetoothUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A68AE731BDE52FF00F431E7 /* SwiftBluetoothSample.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftBluetoothSample.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A68AE771BDE52FF00F431E7 /* SwiftLGBluetoothUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLGBluetoothUITests.swift; sourceTree = "<group>"; };
 		9A68AE791BDE52FF00F431E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A68AE851BDE532E00F431E7 /* BLEManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,9 +89,9 @@
 		9A68AE551BDE52FF00F431E7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9A68AE541BDE52FF00F431E7 /* SwiftLGBluetooth.app */,
-				9A68AE681BDE52FF00F431E7 /* SwiftLGBluetoothTests.xctest */,
-				9A68AE731BDE52FF00F431E7 /* SwiftLGBluetoothUITests.xctest */,
+				9A68AE541BDE52FF00F431E7 /* SwiftBluetoothSample.app */,
+				9A68AE681BDE52FF00F431E7 /* SwiftBluetoothSample.xctest */,
+				9A68AE731BDE52FF00F431E7 /* SwiftBluetoothSample.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				9A68AE571BDE52FF00F431E7 /* AppDelegate.swift */,
+				9A68AE851BDE532E00F431E7 /* BLEManager.swift */,
 				9A68AE591BDE52FF00F431E7 /* ViewController.swift */,
 				9A68AE5B1BDE52FF00F431E7 /* Main.storyboard */,
 				9A68AE5E1BDE52FF00F431E7 /* Assets.xcassets */,
@@ -128,9 +131,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9A68AE531BDE52FF00F431E7 /* SwiftLGBluetooth */ = {
+		9A68AE531BDE52FF00F431E7 /* SwiftBluetoothSample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A68AE7C1BDE52FF00F431E7 /* Build configuration list for PBXNativeTarget "SwiftLGBluetooth" */;
+			buildConfigurationList = 9A68AE7C1BDE52FF00F431E7 /* Build configuration list for PBXNativeTarget "SwiftBluetoothSample" */;
 			buildPhases = (
 				9A68AE501BDE52FF00F431E7 /* Sources */,
 				9A68AE511BDE52FF00F431E7 /* Frameworks */,
@@ -140,14 +143,14 @@
 			);
 			dependencies = (
 			);
-			name = SwiftLGBluetooth;
+			name = SwiftBluetoothSample;
 			productName = SwiftLGBluetooth;
-			productReference = 9A68AE541BDE52FF00F431E7 /* SwiftLGBluetooth.app */;
+			productReference = 9A68AE541BDE52FF00F431E7 /* SwiftBluetoothSample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9A68AE671BDE52FF00F431E7 /* SwiftLGBluetoothTests */ = {
+		9A68AE671BDE52FF00F431E7 /* SwiftBluetoothSampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A68AE7F1BDE52FF00F431E7 /* Build configuration list for PBXNativeTarget "SwiftLGBluetoothTests" */;
+			buildConfigurationList = 9A68AE7F1BDE52FF00F431E7 /* Build configuration list for PBXNativeTarget "SwiftBluetoothSampleTests" */;
 			buildPhases = (
 				9A68AE641BDE52FF00F431E7 /* Sources */,
 				9A68AE651BDE52FF00F431E7 /* Frameworks */,
@@ -158,14 +161,14 @@
 			dependencies = (
 				9A68AE6A1BDE52FF00F431E7 /* PBXTargetDependency */,
 			);
-			name = SwiftLGBluetoothTests;
+			name = SwiftBluetoothSampleTests;
 			productName = SwiftLGBluetoothTests;
-			productReference = 9A68AE681BDE52FF00F431E7 /* SwiftLGBluetoothTests.xctest */;
+			productReference = 9A68AE681BDE52FF00F431E7 /* SwiftBluetoothSample.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9A68AE721BDE52FF00F431E7 /* SwiftLGBluetoothUITests */ = {
+		9A68AE721BDE52FF00F431E7 /* SwiftBluetoothSampleUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A68AE821BDE52FF00F431E7 /* Build configuration list for PBXNativeTarget "SwiftLGBluetoothUITests" */;
+			buildConfigurationList = 9A68AE821BDE52FF00F431E7 /* Build configuration list for PBXNativeTarget "SwiftBluetoothSampleUITests" */;
 			buildPhases = (
 				9A68AE6F1BDE52FF00F431E7 /* Sources */,
 				9A68AE701BDE52FF00F431E7 /* Frameworks */,
@@ -176,9 +179,9 @@
 			dependencies = (
 				9A68AE751BDE52FF00F431E7 /* PBXTargetDependency */,
 			);
-			name = SwiftLGBluetoothUITests;
+			name = SwiftBluetoothSampleUITests;
 			productName = SwiftLGBluetoothUITests;
-			productReference = 9A68AE731BDE52FF00F431E7 /* SwiftLGBluetoothUITests.xctest */;
+			productReference = 9A68AE731BDE52FF00F431E7 /* SwiftBluetoothSample.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +207,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9A68AE4F1BDE52FE00F431E7 /* Build configuration list for PBXProject "SwiftLGBluetooth" */;
+			buildConfigurationList = 9A68AE4F1BDE52FE00F431E7 /* Build configuration list for PBXProject "SwiftBluetoothSample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -217,9 +220,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9A68AE531BDE52FF00F431E7 /* SwiftLGBluetooth */,
-				9A68AE671BDE52FF00F431E7 /* SwiftLGBluetoothTests */,
-				9A68AE721BDE52FF00F431E7 /* SwiftLGBluetoothUITests */,
+				9A68AE531BDE52FF00F431E7 /* SwiftBluetoothSample */,
+				9A68AE671BDE52FF00F431E7 /* SwiftBluetoothSampleTests */,
+				9A68AE721BDE52FF00F431E7 /* SwiftBluetoothSampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A68AE5A1BDE52FF00F431E7 /* ViewController.swift in Sources */,
+				9A68AE861BDE532E00F431E7 /* BLEManager.swift in Sources */,
 				9A68AE581BDE52FF00F431E7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,12 +286,12 @@
 /* Begin PBXTargetDependency section */
 		9A68AE6A1BDE52FF00F431E7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9A68AE531BDE52FF00F431E7 /* SwiftLGBluetooth */;
+			target = 9A68AE531BDE52FF00F431E7 /* SwiftBluetoothSample */;
 			targetProxy = 9A68AE691BDE52FF00F431E7 /* PBXContainerItemProxy */;
 		};
 		9A68AE751BDE52FF00F431E7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9A68AE531BDE52FF00F431E7 /* SwiftLGBluetooth */;
+			target = 9A68AE531BDE52FF00F431E7 /* SwiftBluetoothSample */;
 			targetProxy = 9A68AE741BDE52FF00F431E7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -400,9 +404,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftLGBluetooth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.kazuph.SwiftLGBluetooth;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.kazuph.SwiftBluetoothSample;
+				PRODUCT_NAME = SwiftBluetoothSample;
 			};
 			name = Debug;
 		};
@@ -411,9 +416,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftLGBluetooth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.kazuph.SwiftLGBluetooth;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.kazuph.SwiftBluetoothSample;
+				PRODUCT_NAME = SwiftBluetoothSample;
 			};
 			name = Release;
 		};
@@ -424,8 +430,8 @@
 				INFOPLIST_FILE = SwiftLGBluetoothTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.kazuph.SwiftLGBluetoothTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftLGBluetooth.app/SwiftLGBluetooth";
+				PRODUCT_NAME = SwiftBluetoothSample;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftBluetoothSample.app/SwiftBluetoothSample";
 			};
 			name = Debug;
 		};
@@ -436,8 +442,8 @@
 				INFOPLIST_FILE = SwiftLGBluetoothTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.kazuph.SwiftLGBluetoothTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftLGBluetooth.app/SwiftLGBluetooth";
+				PRODUCT_NAME = SwiftBluetoothSample;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftBluetoothSample.app/SwiftBluetoothSample";
 			};
 			name = Release;
 		};
@@ -447,7 +453,7 @@
 				INFOPLIST_FILE = SwiftLGBluetoothUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.kazuph.SwiftLGBluetoothUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SwiftBluetoothSample;
 				TEST_TARGET_NAME = SwiftLGBluetooth;
 				USES_XCTRUNNER = YES;
 			};
@@ -459,7 +465,7 @@
 				INFOPLIST_FILE = SwiftLGBluetoothUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.kazuph.SwiftLGBluetoothUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SwiftBluetoothSample;
 				TEST_TARGET_NAME = SwiftLGBluetooth;
 				USES_XCTRUNNER = YES;
 			};
@@ -468,7 +474,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9A68AE4F1BDE52FE00F431E7 /* Build configuration list for PBXProject "SwiftLGBluetooth" */ = {
+		9A68AE4F1BDE52FE00F431E7 /* Build configuration list for PBXProject "SwiftBluetoothSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A68AE7A1BDE52FF00F431E7 /* Debug */,
@@ -477,7 +483,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A68AE7C1BDE52FF00F431E7 /* Build configuration list for PBXNativeTarget "SwiftLGBluetooth" */ = {
+		9A68AE7C1BDE52FF00F431E7 /* Build configuration list for PBXNativeTarget "SwiftBluetoothSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A68AE7D1BDE52FF00F431E7 /* Debug */,
@@ -485,7 +491,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		9A68AE7F1BDE52FF00F431E7 /* Build configuration list for PBXNativeTarget "SwiftLGBluetoothTests" */ = {
+		9A68AE7F1BDE52FF00F431E7 /* Build configuration list for PBXNativeTarget "SwiftBluetoothSampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A68AE801BDE52FF00F431E7 /* Debug */,
@@ -493,7 +499,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		9A68AE821BDE52FF00F431E7 /* Build configuration list for PBXNativeTarget "SwiftLGBluetoothUITests" */ = {
+		9A68AE821BDE52FF00F431E7 /* Build configuration list for PBXNativeTarget "SwiftBluetoothSampleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A68AE831BDE52FF00F431E7 /* Debug */,
